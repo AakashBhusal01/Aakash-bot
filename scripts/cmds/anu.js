@@ -4,7 +4,7 @@ module.exports = {
 			version: "1.0",
 			author: "D_S",
 			countDown: 5,
-			role: 2,
+			role: 0,
 			shortDescription: "",
 			longDescription: "",
 			category: "bot",
@@ -15,7 +15,7 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "anu") return message.reply("yes.. Master...🥳❤️‍🩹");
+	if (event.body && event.body.toLowerCase() == "anu") return message.reply("yes.. 🥳❤️‍🩹");
 	if (event.body && event.body.toLowerCase() == "good morning") return message.reply("good morning..🌄❤️‍🩹");
 	if (event.body && event.body.toLowerCase() == "good evening") return message.reply("good evening🌃❤️‍🩹");
 	if (event.body && event.body.toLowerCase() == "good afternoon") return message.reply("good afternoon ❤️‍🩹");
